@@ -236,7 +236,8 @@ class AlienInvasion:
 
     def _update_aliens(self):
         '''Check if the fleet is an edge then 
-            update the positions of all alien wessels in the fleet'''
+            update the positions of all alien 
+            wessels in the fleet'''
         self._check_fleet_edges()
         self.aliens.update()
 
